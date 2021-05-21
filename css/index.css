@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.got {
+    display: flex;
+    align-self: center;
+}
+
+main {
+    height: 80%;
+    background-image: url("https://www.lagardedenuit.com/wall/wp-content/uploads/2019/06/got-concept_art-saison8_episode6.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
