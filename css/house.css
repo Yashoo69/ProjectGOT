@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: O;
+    padding: 0;
    }
 
    @font-face {
@@ -94,15 +94,6 @@ aside {
     margin-right: 10px;
 }
 
-/* 
-aside {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
-} */
 
 .character div {
     width: 100%;
