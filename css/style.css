@@ -38,9 +38,8 @@ footer {
     height: 100%;
     align-items: center;
     background-image: url("https://retourverslecinema.com/wp-content/uploads/2017/07/couv-serieok3.jpg");
-    background-size: contain;
-    background-position: center;  
-    font-size: 16px;
+    /* background-size: contain;
+    background-position: center;   */
 }
 
 
@@ -57,14 +56,18 @@ nav {
 
 nav a {
     text-decoration: none;
-    color:#00ffff;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 4px;
-    background-color: rgb(66, 64, 64, 0.95);
+    background-color: rgba(66, 64, 64, 0.95);
     padding: 4px 4px;
     font-family: "Ma Super Fonte";
     font-size: 25px;
     background-repeat: no-repeat;
+    background-image: url("https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FFAC.2Fvar.2Ffemmeactuelle.2Fstorage.2Fimages.2Fsante.2Fnews-sante.2Fvue-mer-ameliore-moral-29734.2F14045546-1-fre-FR.2Fdepression-on-va-voir-la-mer.2Ejpg/750x562/quality/80/crop-from/center/cr/wqkgVGhpbmtzdG9jayAvIEZlbW1lIEFjdHVlbGxl/depression-on-va-voir-la-mer.jpeg");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 
 }
 
