@@ -11,18 +11,15 @@
 
 nav > ul {
     list-style: none;
-    justify-content: space-evenly;
-    font-family: "Ma Super Fonte";
+    justify-content: space-evenly;   
 }
 
 
 header {
     display: flex;
     width: 100%;
-    height: 15vh;
+    height: 10vh;
     flex-direction: column;
-    font-family: "Ma Super Fonte";
-  
 }
 
 
@@ -34,7 +31,6 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
-    font-family: "Ma Super Fonte";
 }
 
 .navbar {
@@ -45,9 +41,8 @@ footer {
     background-size: contain;
     background-position: center;  
     font-size: 16px;
-    font-family: "Ma Super Fonte";
-    
 }
+
 
 nav {
     height: 100%;
@@ -56,29 +51,27 @@ nav {
 .menu {
     font-size: xx-large;
     opacity: inherit;
-    opacity: 1 !important;
-    font-family: "Ma Super Fonte";
+    opacity: 1 !important; 
 }
 
 
 nav a {
     text-decoration: none;
-    color: rgb(146 104 71);
+    color:#00ffff;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 4px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(66, 64, 64, 0.95);
     padding: 4px 4px;
     font-family: "Ma Super Fonte";
+    font-size: 25px;
+    background-repeat: no-repeat;
+
 }
 
 nav a:hover {
     color: rgb(255, 255, 255);
-    background-color: rgb(207, 208, 209);
-    text-shadow: rgb(122, 122, 122) 4px 3px 0px;
-    font-family: "Ma Super Fonte";
+    background-color: rgb(29, 27, 27);
+    text-shadow: rgb(47, 153, 202) 4px 3px 0px;
 }
 
-.got {
-    display: flex;
-    align-self: center;
-}
+

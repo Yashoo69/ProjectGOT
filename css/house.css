@@ -19,21 +19,15 @@ body {
 }
 
 main {
-    height: 80%
+    height: 85%;
 }
 
 section{
-    height: 100%;
-    
-}
-
-/* .data {
+    height: 98%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-content: center;
-    height: 100%
-} */
+ 
+}
 
 #img {
     display: flex;
@@ -96,6 +90,8 @@ aside {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* 
